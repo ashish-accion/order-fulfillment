@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fulfillment_db
+    username: postgres
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+logging:
+  level:
+    root: INFO
+    com.example.fulfillment: DEBUG
+routing:
+  interval: 300000
+fulfillment:
+  interval: 600000
+notification:
+  delay: 60000
