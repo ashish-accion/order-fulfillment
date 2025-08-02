@@ -1,6 +1,6 @@
 package com.example.fulfillment.shipping;
 
-import com.example.fulfillment.entity\Order;
+import com.example.fulfillment.entity.Order;
 import org.springframework.stereotype.Component;
 
 @Component

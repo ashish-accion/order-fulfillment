@@ -3,11 +3,11 @@ package com.example.fulfillment.service;
 import com.example.fulfillment.entity.Order;
 import com.example.fulfillment.entity.OrderStatus;
 import com.example.fulfillment.repo.OrderRepository;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.orm.ObjectOptimisticLockingFailureException;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
-import javax.persistence.EntityNotFoundException;
 import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 

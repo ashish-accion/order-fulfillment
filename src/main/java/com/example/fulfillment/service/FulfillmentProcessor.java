@@ -2,6 +2,7 @@ package com.example.fulfillment.service;
 
 import com.example.fulfillment.entity.Order;
 import com.example.fulfillment.entity.OrderStatus;
+import com.example.fulfillment.entity.OrderStatusLog;
 import com.example.fulfillment.repo.OrderRepository;
 import com.example.fulfillment.repo.OrderStatusLogRepository;
 import com.example.fulfillment.shipping.ShippingStrategyFactory;
